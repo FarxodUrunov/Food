@@ -1,0 +1,52 @@
+{
+  "menu": [
+    {
+      "img": "img/tabs/vegy.jpg",
+      "altimg": "vegy",
+      "title": "Fitness menyusi'",
+      "descr": "Fitness menyusi - bu taom tayyorlashga yangi yondashuv: ko'proq yangi sabzavot va mevalar. Faol va sog'lom odamlarning mahsuloti",
+      "price": 2009
+    },
+    {
+      "img": "img/tabs/post.jpg",
+      "altimg": "post",
+      "title": "Lenten menyusi",
+      "descr": "Lenten menyusi ingredientlarning diqqat bilan tanlanishidir: hayvonot mahsulotlari yo'q, bodom, suli, hindiston yong'og'i yoki grechkadan olingan sut, tofu va import qilingan vegetarian bifteklardan kerakli miqdorda protein.",
+      "price": 14000
+    },
+    {
+      "img": "img/tabs/elite.jpg",
+      "altimg": "elite",
+      "title": "Premium menyusi",
+      "descr": "Premium menyusida biz nafaqat chiroyli qadoqlash dizaynidan, balki idishlarning yuqori sifatli bajarilishidan ham foydalanamiz. Qizil baliq, dengiz mahsulotlari, mevalar - restoranga bormasdan restoran menyusi!",
+      "price": 21000
+    }
+  ],
+  "requests": [
+    {
+      "name": "Farxod",
+      "phone": "937038788",
+      "id": 1
+    },
+    {
+      "name": "Urunov Farxod",
+      "phone": "944746418",
+      "id": 2
+    },
+    {
+      "name": "Urunov Farxod",
+      "phone": "932369009",
+      "id": 3
+    },
+    {
+      "name": "Yoqubjonov Akmal",
+      "phone": "932369009",
+      "id": 4
+    },
+    {
+      "name": "urunovfarxod",
+      "phone": "932369009",
+      "id": 5
+    }
+  ]
+}

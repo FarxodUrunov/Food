@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Food</title>
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/main.css" />
+   </head>
+
+   <body>
+      <header class="header">
+         <div class="header__left-block">
+            <div class="header__logo">
+               <img src="icons/logo.svg" alt="Логотип" />
+            </div>
+            <nav class="header__links">
+               <a href="#" class="header__link">Ovqat buyurtirish</a>
+               <a href="#" class="modal-buyurt__open header__link">Buyurtmalarni kurish</a>
+            </nav>
+         </div>
+         <div class="header__right-block">
+            <button data-modal class="btn btn_white">Biz bilan bog'lanish</button>
+         </div>
+      </header>
+
+      <!-- modal buyurtmalar -->
+
+      <div class="input__pass">
+         <div class="modal-1">
+            <div class="modal__dialog">
+               <div data-close class="modal-1__w modal__content">
+                  <div class="modal__title">Bu bulimni kurish uchun login parolni kiriting!</div>
+                  <input required placeholder="Loginingiz" name="login" type="text" class="modal__login-input modal__input" />
+                  <input required placeholder="Parolingiz" name="password" type="password" class="modal__pass-input modal__input" />
+                  <button class="btn-1 btn btn_dark btn_min">Bog'lanish</button>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <section class="modal__buyurtma">
+         <div class="container">
+            <div data-close class="modal__titel">
+               <h1>Mijozlardan tushgan buyurtmalar ruyxati</h1>
+               <div class="modal__info">
+                  <div class="box">
+                     <b>Buyurtmachi ismi</b>
+                     <ul class="info-1"></ul>
+                  </div>
+                  <div class="box">
+                     <b>Buyurtmachi tefon raqami</b>
+                     <ul class="info-2"></ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <div class="sidepanel">
+         <div class="sidepanel__text"><span>Ijtimoiy tarmoqlar</span></div>
+         <div class="sidepanel__divider"></div>
+         <a href="#" class="sidepanel__icon">
+            <img src="icons/instagram.svg" alt="instagram" />
+         </a>
+         <a href="#" class="sidepanel__icon">
+            <img src="icons/facebook.svg" alt="facebook" />
+         </a>
+      </div>
+
+      <div class="preview">
+         <div class="bgc_blue"></div>
+         <div class="container">
+            <div class="tabcontainer">
+               <div class="tabcontent">
+                  <img src="img/tabs/vegy.jpg" alt="vegy" />
+                  <div class="tabcontent__descr">"Fitness" menyusi - pishirishga yangi yondashuv: ko'proq yangi sabzavotlar va mevalar. Sportga qiziquvchilar uchun faol va sog'lom menyusi.</div>
+               </div>
+               <div class="tabcontent">
+                  <img src="img/tabs/elite.jpg" alt="elite" />
+                  <div class="tabcontent__descr">
+                     "Premium" menyusi - biz nafaqat chiroyli qadoqlash dizaynidan, balki idishlarning yuqori sifatli bajarilishidan ham foydalanamiz. Qizil baliq, dengiz mahsulotlari, mevalar -
+                     restoranga bormasdan restoran menyusi!
+                  </div>
+               </div>
+               <div class="tabcontent">
+                  <img src="img/tabs/post.jpg" alt="post" />
+                  <div class="tabcontent__descr">
+                     Bizning maxsus "Lenten menyusi" ingredientlarni ehtiyotkorlik bilan tanlashga qaratilgan: hayvonot mahsulotlari yo'q. Har bir elementda o'zingiz va tabiat bilan to'liq uyg'unlik!
+                  </div>
+               </div>
+               <div class="tabcontent">
+                  <img src="img/tabs/vegy.jpg" alt="vegy" />
+                  <div class="tabcontent__descr">
+                     "Muvozanatli" menyu - bu sizning dietangizning barcha ilmiy tavsiyalarga muvofiqligi. Biz sizning kaloriyaga bo'lgan ehtiyojingizni diqqat bilan hisoblab chiqamiz va siz uchun eng
+                     yaxshi taomlarni yaratamiz.
+                  </div>
+               </div>
+               <div class="tabheader">
+                  <h3>Ovqatlanish turini tanlang</h3>
+                  <div class="tabheader__items">
+                     <div class="tabheader__item tabheader__item_active">Fitnes</div>
+                     <div class="tabheader__item">Premium</div>
+                     <div class="tabheader__item">Lenten menyusi</div>
+                     <div class="tabheader__item">Muvozanatli</div>
+                  </div>
+               </div>
+            </div>
+            <div class="preview__life">Chiroyli hayot kechiring!</div>
+         </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="offer">
+         <div class="bgc_y"></div>
+         <div class="container">
+            <div class="offer__text">
+               <h2 class="title">Biz sizga nima taklif qila olamiz?</h2>
+               <div class="offer__descr">
+                  Bizning asosiy g'oyamiz - to'g'ri ovqatlanish. Bu oddiy va mazali bo'lishi mumkin. Biz kaloriyalar, porsiya o'lchamlari va boshqa muhim, ammo zerikarli jihatlarning barcha
+                  hisob-kitoblariga g'amxo'rlik qildik. Sizda faqat sog'lom, qoniqarli va to'g'ri ovqat qoldi.
+               </div>
+            </div>
+            <div class="offer__action">
+               <button data-modal class="btn btn_dark">Biz bilan bog'lanish</button>
+            </div>
+         </div>
+         <div class="container">
+            <div class="offer__advantages">
+               <h2>Tez va foydali</h2>
+               <div class="offer__advantages-text">Siz hech kimga moslashmasdan va mahsulot sifatiga ishonch hosil qilmasdan xohlaganingizcha harakat qilishingiz mumkin!</div>
+               <h2>To'g'ri ovqatlanish</h2>
+               <div class="offer__advantages-text">
+                  Biz to'g'ri ovqatlanishning barcha xislatlarini hisobga olgan holda, BJU balansidan ularni tayyorlash va parhezni bo'lishgacha bo'lgan maxsus menyu ishlab chiqdik
+               </div>
+            </div>
+            <div class="offer__slider">
+               <div class="offer__slider-counter">
+                  <div class="offer__slider-prev">
+                     <img src="icons/left.svg" alt="prev" />
+                  </div>
+                  <span id="current">03</span>
+                  /
+                  <span id="total">04</span>
+                  <div class="offer__slider-next">
+                     <img src="icons/right.svg" alt="next" />
+                  </div>
+               </div>
+               <div class="offer__slider-wrapper">
+                  <div class="offer__slider-inner">
+                     <div class="offer__slide">
+                        <img src="img/slider/pepper.jpg" alt="pepper" />
+                     </div>
+                     <div class="offer__slide">
+                        <img src="img/slider/food-12.jpg" alt="food" />
+                     </div>
+                     <div class="offer__slide">
+                        <img src="img/slider/olive-oil.jpg" alt="oil" />
+                     </div>
+                     <div class="offer__slide">
+                        <img src="img/slider/paprika.jpg" alt="paprika" />
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="calculating">
+         <div class="container">
+            <h2 class="title">Sizning kaloriyaga bulgan ixtiyojingizni xisoblaymiz?</h2>
+            <div class="calculating__field">
+               <div class="calculating__subtitle">Jinsingiz</div>
+               <div class="calculating__choose" id="gender">
+                  <div id="female" class="calculating__choose-item calculating__choose-item_active">A'yol</div>
+                  <div id="male" class="calculating__choose-item">Erkak</div>
+               </div>
+
+               <div class="calculating__subtitle">Sizning ulchamlaringiz</div>
+               <div class="calculating__choose calculating__choose_medium">
+                  <input type="text" id="height" placeholder="Buyingizni kiriting" class="calculating__choose-item" />
+                  <input type="text" id="weight" placeholder="Og'irligingizni kiriting" class="calculating__choose-item" />
+                  <input type="text" id="age" placeholder="Yoshingizni kiriting" class="calculating__choose-item" />
+               </div>
+
+               <div class="calculating__subtitle">O'zingizni jismoniy faolligingizni tanlang</div>
+               <div class="calculating__choose calculating__choose_big">
+                  <div data-ratio="1.2" id="low" class="calculating__choose-item">Juda kam faollik</div>
+                  <div data-ratio="1.375" id="small" class="calculating__choose-item calculating__choose-item_active">Kam faollik</div>
+                  <div data-ratio="1.55" id="medium" class="calculating__choose-item">O'rtacha faollik</div>
+                  <div data-ratio="1.725" id="high" class="calculating__choose-item">Yuqori faollik</div>
+               </div>
+
+               <div class="calculating__divider"></div>
+
+               <div class="calculating__total">
+                  <div class="calculating__subtitle">Sizning bir kunlik kaloriyangiz:</div>
+                  <div class="calculating__result"><span>2700</span> kkal</div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="menu">
+         <h2 class="title">Bizning parxiz taomlar</h2>
+
+         <div class="menu__field">
+            <div class="container"></div>
+         </div>
+      </div>
+
+      <div class="order">
+         <div class="container">
+            <div class="title">Xoziroq buyurtma berish!</div>
+            <form action="#" class="order__form">
+               <input required placeholder="Ismingiz" name="name" type="text" class="order__input" />
+               <input required placeholder="Telefon raqamingiz" name="phone" type="phone" class="order__input" />
+               <img src="icons/right.svg" alt="right" />
+               <button class="btn btn_dark btn_min">Bog'lanish</button>
+            </form>
+         </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="promotion">
+         <div class="bgc_y"></div>
+         <div class="container">
+            <div class="promotion__text">
+               <div class="title">Yangi mijozlarimizga aksiya!</div>
+               <div class="promotion__descr">
+                  Biz xar bir mijozni qadirlaymiz buni o'zingizda xis qilib kurish uchun xoziroq biz bilan bog'laning va dam olish va davolanish uchun buyurtma bering xamda maxsus
+                  <span>20%!</span> chegirmaga ega buling. <br /><br />
+                  Aksiyamiz tugash muddati 1 fevral soat 00:00
+               </div>
+            </div>
+            <div class="promotion__timer">
+               <div class="title">Aksiya tugashiga:</div>
+               <div class="timer">
+                  <div class="timer__block">
+                     <span id="days">12</span>
+                     kun
+                  </div>
+                  <div class="timer__block">
+                     <span id="hours">20</span>
+                     soat
+                  </div>
+                  <div class="timer__block">
+                     <span id="minutes">56</span>
+                     minut
+                  </div>
+                  <div class="timer__block">
+                     <span id="seconds">20</span>
+                     sekund
+                  </div>
+               </div>
+               <div class="title titel-1">qoldi.</div>
+            </div>
+         </div>
+      </div>
+
+      <footer class="footer">
+         <div class="container">
+            <div class="social">
+               <div class="subtitle">Ijtimoiy tarmoqlar:</div>
+               <a href="#" class="link">instagram</a>
+               <a href="#" class="link">facebook</a>
+            </div>
+            <div class="pepper">
+               <img src="icons/veg.svg" alt="pepper" />
+            </div>
+            <div class="call">
+               <div class="subtitle">Biz bilan bog'lanish</div>
+               <a href="#" class="link">+99890-120-20-20</a>
+               <a href="#" class="link">+99899-130-30-30</a>
+            </div>
+         </div>
+      </footer>
+
+      <div class="modal">
+         <div class="modal__dialog">
+            <div class="modal__content">
+               <form action="#">
+                  <div data-close class="modal__close">&times;</div>
+                  <div class="modal__title">O'z ma'lumotlaringizni qoldiring va biz siz bilan bog'lanamiz!</div>
+                  <input required placeholder="Ismingiz" name="name" type="text" class="modal__input" />
+                  <input required placeholder="Telefon raqamingiz" name="phone" type="phone" class="modal__input" />
+                  <button class="btn btn_dark btn_min">Bog'lanish</button>
+               </form>
+            </div>
+         </div>
+      </div>
+
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"
+         integrity="sha512-u9akINsQsAkG9xjc1cnGF4zw5TFDwkxuc9vUp5dltDWYCSmyd0meygbvgXrlc/z7/o4a19Fb5V0OUE58J7dcyw=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      ></script>
+      <script src="js/script.js"></script>
+   </body>
+</html>
