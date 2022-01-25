@@ -363,6 +363,7 @@ document.addEventListener("DOMContentLoaded", function () {
          li1.innerHTML = `${this.name}`;
          li2.innerHTML = `${this.phone}`;
 
+			console.log(li1,li2);
          this.parentModalB1.append(li1);
          this.parentModalB2.append(li2);
       }
@@ -378,14 +379,14 @@ document.addEventListener("DOMContentLoaded", function () {
       return await resModal.json();
    };
 
-   getModalResource("http://localhost:1337/api/blog-service-2s").then((data) => {
+   getModalResource("https://sanotoriya.herokuapp.com/api/blog-service-2s").then((data) => {
       console.log(data);
       data.data.forEach((item) => {
          let bb = {
             name: item.attributes.name,
             phone: item.attributes.phone,
          };
-
+				
          new MenuModalB(bb.name, bb.phone, ".info-1", ".info-2").renderModalB();
       });
    });
