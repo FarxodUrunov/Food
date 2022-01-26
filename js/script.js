@@ -194,7 +194,7 @@ document.addEventListener("DOMContentLoaded", function () {
       return await res.json();
    };
 
-   getResource("https://sanotoriya.herokuapp.com/api/blog-service-1s?populate=*").then((data) => {
+   getResource("http://localhost:1337/api/blog-service-1s?populate=*").then((data) => {
       data.data.forEach((item) => {
          // console.log(item);
          let aa = {
@@ -202,7 +202,7 @@ document.addEventListener("DOMContentLoaded", function () {
             titel: item.attributes.titel,
             descr: item.attributes.descr,
             price: item.attributes.price,
-            img: `https://sanotoriya.herokuapp.com${item.attributes.img.data[0].attributes.formats.thumbnail.url}`,
+            img: `http://localhost:1337${item.attributes.img.data[0].attributes.formats.thumbnail.url}`,
          };
 
          new MenuCard(aa.img, aa.altimg, aa.titel, aa.descr, aa.price, ".menu .container").render();
@@ -250,7 +250,7 @@ document.addEventListener("DOMContentLoaded", function () {
          const inputInfo = Object.fromEntries(formData.entries());
          console.log(e.target);
 
-         postData("https://sanotoriya.herokuapp.com/api/blog-service-2s", {
+         postData("http://localhost:1337/api/blog-service-2s", {
             data: {
                name: inputInfo.name,
                phone: inputInfo.phone,
@@ -379,7 +379,7 @@ document.addEventListener("DOMContentLoaded", function () {
       return await resModal.json();
    };
 
-   getModalResource("https://sanotoriya.herokuapp.com/api/blog-service-2s").then((data) => {
+   getModalResource("http://localhost:1337/api/blog-service-2s").then((data) => {
       console.log(data);
       data.data.forEach((item) => {
          let bb = {
