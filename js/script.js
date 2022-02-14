@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
    // timer uchun
 
-   const deadline = "2022-02-01";
+   const deadline = "2022-04-01";
 
    function getTimeRemaining(endtime) {
       let t = Date.parse(endtime) - Date.parse(new Date());
